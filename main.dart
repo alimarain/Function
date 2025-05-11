@@ -3,15 +3,18 @@ void main(){
   print("|    This is function code!    |");
   print("--------------------------------");
 
-  printMyNameandAge(){
-    print("My name is Ali Muhammad");
-    print("My age is 30");
-  }
-    addTwoNumber(){
+  // printMyNameandAge(){
+  //   print("My name is Ali Muhammad");
+  //   print("My age is 30");
+
+    int calculateTotalMarks(){
     int a = 16;
     int b = 44;
-    print("sum of $a and $b is ${a+b}");
+    int c = 23;
+    int totalMarks = a + b + c;
+    return totalMarks;  
+    
   }
-  printMyNameandAge();
-  addTwoNumber();
+int totalMarks = calculateTotalMarks();
+  print(totalMarks);
 }
