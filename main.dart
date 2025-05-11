@@ -17,12 +17,17 @@ void main(){
 //   }
 // int totalMarks = calculateTotalMarks();
 //   print(totalMarks);
-    int calculateTotalMarks(int a, int b, int c){
+//     int calculateTotalMarks(int a, int b, int c){
    
-    int totalMarks = a + b + c;
-    return totalMarks;  
+//     int totalMarks = a + b + c;
+//     return totalMarks;  
     
-  }
-int totalMarks = calculateTotalMarks(45,95,35);
-  print(totalMarks);
+//   }
+// int totalMarks = calculateTotalMarks(45,95,35);
+//   print(totalMarks);
+void studentPrintdata([String name="ali", int age=20]){
+  print("My name is $name");
+  print("My age is $age");
+}
+studentPrintdata();
 }
